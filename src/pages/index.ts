@@ -4,3 +4,6 @@ export * from './Contacts';
 export * from './Products';
 export * from './Product';
 export * from './Cart';
+export * from './Login';
+export * from './Dashboard';
+export * from './Profile';
