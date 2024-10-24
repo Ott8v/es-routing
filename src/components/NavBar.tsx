@@ -11,6 +11,12 @@ export function NavBar () {
                 <li>
                      <a href="/contacts">Contacts</a>
                 </li>
+                <li>
+                     <a href="/products">Products</a>
+                </li>
+                <li>
+                     <a href="/cart">Cart</a>
+                </li>
               </ul>
        </nav>
     )

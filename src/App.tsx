@@ -1,5 +1,5 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import { About, Contacts, Home } from './pages';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { About, Cart, Contacts, Home, Product, Products } from './pages';
 
 function App() {
   return (
@@ -8,6 +8,9 @@ function App() {
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>}/>
         <Route path='/contacts' element={<Contacts/>}/>
+        <Route path='/products' element={<Products/>}/>
+        <Route path='/products/:id' element={<Product/>}/>
+        <Route path='/cart' element={<Cart/>}/>
       </Routes>
     </BrowserRouter>
   );
